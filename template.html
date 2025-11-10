@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{title}}</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <h1>{{title}}</h1>
+      <span class="meta">Updated {{updated}}</span>
+    </header>
+
+    <div class="grid">
+      {{boxes}}
+      <section class="box">
+        <h2>Evidence Index & References</h2>
+        <div class="panel refs">
+          <ol>
+            {{references}}
+          </ol>
+          <p>Replace labels with live URLs when finalising.</p>
+        </div>
+      </section>
+    </div>
+  </div>
+  <script src="assets/app.js"></script>
+</body>
+</html>

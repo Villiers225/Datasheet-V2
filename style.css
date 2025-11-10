@@ -12,7 +12,6 @@ body{margin:0;background:var(--bg);color:var(--ink);
 h1{font-size:28px;margin:0}
 .meta{color:var(--muted);font-size:12px}
 .grid{display:grid;gap:14px}
-@media(min-width:1024px){.grid.cols-2{grid-template-columns:1fr 1fr}}
 .box{background:var(--panel);border:1px solid var(--rule);border-radius:16px;padding:16px}
 .box h2{font-size:18px;color:var(--accent);margin:0 0 10px 0}
 .box .two{display:grid;gap:12px}
@@ -21,19 +20,15 @@ h1{font-size:28px;margin:0}
 h3{font-size:14px;margin:0 0 8px 0;color:var(--muted);font-weight:600;letter-spacing:.2px}
 ul{margin:6px 0 0 20px}
 li{margin:6px 0}
-/* stat chips & mini charts */
+a{color:var(--accent);text-decoration:none;border-bottom:1px dotted var(--accent)}
+a:hover{opacity:.9}
 .chip{display:inline-block;background:var(--chip);border:1px solid var(--rule);border-radius:999px;padding:2px 8px;font-size:12px;color:var(--muted);margin-right:6px}
 svg{shape-rendering:geometricPrecision}
 .label{fill:var(--muted);font-size:11px}
 .value{fill:var(--ink);font-size:11px}
 .bar{fill:#a9c7ff}
-/* footnotes */
-footer{margin-top:18px}
 .refs{font-size:13px;color:var(--caption)}
 .refs li{margin:6px 0}
-a{color:var(--accent);text-decoration:none;border-bottom:1px dotted var(--accent)}
-a:hover{opacity:.9}
-/* print */
 @media print{
   .wrapper{padding:0 6mm}
   .box{break-inside:avoid; page-break-inside:avoid}

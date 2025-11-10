@@ -1,0 +1,194 @@
+{
+  "title": "Armies & Technology \u2014 Data Sheet",
+  "updated": "2025-11-10 15:58 UTC",
+  "boxes": [
+    {
+      "heading": "1. War\u2019s relationship with technology has changed.",
+      "verbatim": [
+        "Ukraine demonstrated networked sensors plus precision fires can erase roughly half of Russia\u2019s combat effectiveness in 18 months using modest capabilities. Ukraine was losing up to 10,000 drones per month in 2023.",
+        "Now the Battlefield is transparent: persistent ISR creates an attrition belt about 30km deep. Surprise mass breach tactics are no longer credible. Only 23 Russian tanks within 70km of the front in Aug 2024 vs 470 in May 2023. Tanks endure 10 to 15 FPV hits with heavy modifications. Successful units depend on ISR, EW and UGVs more than tank or infantry mass [4].",
+        "One French CSO satellite generates 1,000 images per day while analysts process ~5 percent. 99% of Predator footage was wasted pre Pj MAVEN. [9].",
+        "The F-4 was about 8 percent software. F-22 about 80%. The F-35 is over 95% reliant on software. [9].",
+        "EMS software can update hourly. [9].",
+        "Software-defined hardware now drives competitiveness. AI automation reduced software development costs so SDH is viable in low volume sectors including aerospace and defence [3]."
+      ],
+      "exhibits": [
+        {
+          "id": "Ex.1",
+          "type": "bar",
+          "title": "RU tanks within 70km vs baseline",
+          "unit": "",
+          "items": [
+            [
+              "Aug 2024",
+              23
+            ],
+            [
+              "May 2023",
+              470
+            ]
+          ],
+          "source_ref": "[4]"
+        },
+        {
+          "id": "Ex.2",
+          "type": "bar",
+          "title": "DoD share of global R&D (context)",
+          "unit": "%",
+          "items": [
+            [
+              "1960",
+              36
+            ],
+            [
+              "Now",
+              1
+            ]
+          ],
+          "source_ref": "[Moneyball]"
+        }
+      ]
+    },
+    {
+      "heading": "2. NATO\u2019s defence technology ecosystem has shifted significantly in response.",
+      "verbatim": [
+        "In 1960 DoD accounted for 36% of global R&D. Now ~1%. [Moneyball Military]",
+        "~90% of executives see a move towards software dominant systems in defence tech [7].",
+        "The markets prove this belief",
+        "Defence tech valuations are elevated, and the sector behaves like a high-growth software sector rather than a cyclical hardware one.",
+        "EV (Enterprise Value = market cap + debt - cash) to EBITDA (earnings before interest, taxes, depreciation and amortisation) about 24.9x with 2026 forecast 19.8x [5]. Euro Primes at 14.4x.",
+        "Def tech up ~150% vs primes ~11% (western) since US election [8]. Capital markets are now pricing in a structural transfer of growth and market share from primes to defence tech platforms",
+        "Attracts capital",
+        "European defence tech startups raised ~3.5bn EUR in 2025 year to date, nearly double 2024 [6]. Mega rounds like Helsing 600m making up ~75 percent. Investor count also grew from 58 to 225 since 2019."
+      ],
+      "exhibits": [
+        {
+          "id": "Ex.3",
+          "type": "bar",
+          "title": "EV/EBITDA",
+          "unit": "\u00d7",
+          "items": [
+            [
+              "DefTech 2025",
+              24.9
+            ],
+            [
+              "DefTech 2026F",
+              19.8
+            ],
+            [
+              "Euro Primes",
+              14.4
+            ]
+          ],
+          "source_ref": "[5]"
+        },
+        {
+          "id": "Ex.4",
+          "type": "bar",
+          "title": "Performance since US election",
+          "unit": "%",
+          "items": [
+            [
+              "DefTech",
+              150
+            ],
+            [
+              "Primes",
+              11
+            ]
+          ],
+          "source_ref": "[8]"
+        }
+      ]
+    },
+    {
+      "heading": "3. We have not adequately adjusted to either change.",
+      "verbatim": [
+        "European defence spending +83 percent since 2015, with Eastern Europe +164 percent [1]. EU Defence investment +42 percent to 106bn EUR, with 80 percent of that on equipment procurement [2]. But has it been spent well?",
+        "SpaceX\u2019s Falcon 9 had more launches in H1 than all European launch systems combined. [IISS - Progress and Shortfalls]",
+        "AI (software) drew ~43 percent of global VC funding in latest reporting [10]. Yet\u2026 Sovereign AI and software underpowered. China Strat AI pledge \u2013 $148.6 bn by 2030. UK is $400-500mn/year (2023-2030 = 3.5bn = ~2.3% max) [9].",
+        "40% of US procurement goes to five primes, consolidated from 51 Vendors in the Cold War [8] [US Acquisition Transformation Strategy]",
+        "~70% of US acquisition spend goes to sustainment."
+      ],
+      "exhibits": [
+        {
+          "id": "Ex.5",
+          "type": "bar",
+          "title": "EU defence investment split",
+          "unit": "%",
+          "items": [
+            [
+              "Equipment Procurement",
+              80
+            ],
+            [
+              "Other",
+              20
+            ]
+          ],
+          "source_ref": "[2]"
+        },
+        {
+          "id": "Ex.6",
+          "type": "bar",
+          "title": "Share of global VC to AI",
+          "unit": "%",
+          "items": [
+            [
+              "AI",
+              43
+            ],
+            [
+              "Other",
+              57
+            ]
+          ],
+          "source_ref": "[10]"
+        }
+      ]
+    },
+    {
+      "heading": "4. A new paradigm is required.",
+      "verbatim": [
+        "US Acquisition Transformation Strategy: Even before, US rapid acquisition. OTA contracting up ~95 percent. DoD awards to VC backed firms up ~20x. USAF planning ~1000 to 2000 collaborative autonomous aircraft. Thousands of low cost autonomous systems fielded in 18 to 24 months. [7].",
+        "Policy shifts in practice [7]. Australia reduced IFVs from 450 to 129 to fund long range fires and cyber. Spain plans to devote about one third of increased defence budget to satellites, AI, 5G, cloud, quantum and a national digital shield.",
+        "Software first procurement. Scale horizontally. Standardise interfaces. Adopt commercial style software contracting. Examples include AUTOSAR Classic and SOAFEE [3].",
+        "Mass scale simulation - 8 million miles per day. [3]."
+      ],
+      "exhibits": [
+        {
+          "id": "Ex.7",
+          "type": "bar",
+          "title": "Rapid acquisition indicators",
+          "unit": "",
+          "items": [
+            [
+              "OTA +",
+              95
+            ],
+            [
+              "VC-awards \u00d7",
+              20
+            ]
+          ],
+          "source_ref": "[7]"
+        }
+      ]
+    }
+  ],
+  "references": [
+    "[1] SIPRI Fact Sheet 2024",
+    "[2] Council of the EU \u2014 Defence in Numbers",
+    "[3] McKinsey \u2014 Software-defined hardware in the age of AI",
+    "[4] RUSI \u2014 Emergent Approaches to Combined Arms Manoeuvre in Ukraine",
+    "[5] Clairfield \u2014 Defence Technology Report 2025",
+    "[6] Sifted \u2014 Europe\u2019s defence-tech deals 2025",
+    "[7] Accenture \u2014 Defense Insight / US Acquisition Transformation",
+    "[8] Baird \u2014 Defence Technology market data; US consolidation",
+    "[9] Soare \u2014 Software-defined defence; CSO/Maven; EMS cadence; UK/China AI",
+    "[10] Dealroom \u2014 Global VC; AI share",
+    "[Moneyball] Historical DoD share of global R&D",
+    "[IISS] Progress and Shortfalls"
+  ]
+}
